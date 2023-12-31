@@ -12,7 +12,7 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-require('lspconfig').lua_ls.setup({})
+
     use {
         "rose-pine/neovim",
         as = "rose-pine",
